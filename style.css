@@ -220,18 +220,20 @@ table tr {
     width: 100vw;
     font-size: 12px;
   }
-  .introduction,
-  .profile-pic2 {
-    width: 70%;
+  .introduction{
+    width: 65%;
     padding-left: 10px;
+  }
+  .introduction h1{
+    font-size: 1.5rem;
   }
   .profile-pic {
     justify-content: center;
-    width: 30%;
+    width: 35%;
     padding-right: 10px;
   }
   .img1 {
-    width: 143px;
+    width: 125px;
   }
 
   .resume {
@@ -241,15 +243,9 @@ table tr {
   .profile-pic2 {
     display: none;
   }
-  .img2 {
-    width: 143px;
-    box-shadow: -2px 0px 6px 6px rgba(173, 216, 230, 1);
-    -webkit-box-shadow: -2px 0px 6px 6px rgba(173, 216, 230, 1);
-    -moz-box-shadow: -2px 0px 6px 6px rgba(173, 216, 230, 1);
-  }
   .reume-details {
     padding-right: 25px;
-    width: 80%;
+    width: 90%;
     font-size: 16px;
   }
   .skills-container {
